@@ -1,0 +1,33 @@
+NAVBAR
+
+1. Home
+Purpose: The main page showcasing the community feed with shared plant images, user posts, and social features.
+
+2. My Plants
+Purpose: A personal dashboard for users to manage their plants.
+Features:
+- View and edit a list of plants they own.
+- Access care schedules and reminders.
+- Add notes and photos for growth tracking.
+
+3. AI Plant Expert
+Purpose: An interactive chatbot to answer plant-related questions and provide tailored advice.
+Features:
+- Users can ask questions like:
+    - "Why are my plant leaves turning yellow?"
+    - "How often should I water my fiddle leaf fig?"
+- AI-powered responses with detailed care tips.
+- Integration with the plant encyclopedia for enriched answers.
+- Quick links to identify plants and diagnose health issues.
+
+Technology:
+Backend: OpenAI GPT API
+UI: Use react-native-gifted-chat for a seamless chat interface.
+
+
+4. More
+Purpose: A hub for additional features.
+Subsections:
+Profile: User account settings.
+Settings: Manage app preferences, notifications, and more.
+Help: FAQs and support.

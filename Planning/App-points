@@ -1,0 +1,71 @@
+Create a AI powered Plant-care app with a Social feature to share photos of your plants to others. I am using React native to build the app.
+
+Pros:
+- VERY simple UI
+
+Features:
+1. Use AI to identify plants from photos and provide care tips.
+- Upload a plant photo to identify the species.
+- Provide plant care requirements (light, water, soil temperature, etc.).
+- Diagnosis for plant health issues based on uploaded images.
+
+2. Plant Care Reminders
+- Allow users to set watering, fertilizing, and pruning schedules.
+Push notifications for care tasks.
+
+3. Plant Growth Tracking
+- Users can log growth stages with photos and notes.
+Generate growth timelines.
+
+4. Social Photo Sharing
+- Allow users to upload and share photos of their plants.
+- Add a comment and like system for engagement.
+- Follow other plant enthusiasts.
+
+5. Community Feed
+- Display shared plant photos in a scrollable feed.
+
+6. AI Plant Expert
+Purpose: An interactive chatbot to answer plant-related questions and provide tailored advice.
+Features:
+- Users can ask questions like:
+    - "Why are my plant leaves turning yellow?"
+    - "How often should I water my fiddle leaf fig?"
+- AI-powered responses with detailed care tips.
+- Integration with the plant encyclopedia for enriched answers.
+- Quick links to identify plants and diagnose health issues.
+
+
+-------------------------------------------------------------
+
+React Native Libraries
+
+1. Core App Features
+- State Management: Zustand
+- UI and Animations: 
+react-native-reanimated, For smooth animations.
+lottie-react-native: For animated illustrations.
+
+2. AI Features
+- Backend AI: OpenAI GPT (o1) APIs
+
+3. Social Features
+- Image Sharing:
+react-native-image-picker: For uploading photos.
+react-native-image-crop-picker: For image editing. 
+
+3. Backend for Photo Sharing
+- Supabase
+
+4. Push Notifications
+- react-native-push-notification: For simpler notifications.
+
+5. Community Feed
+- UI Components: react-native-flatlist: For implementing the feed.
+- Backend: Supabase
+
+6. AI Plant Expert
+- UI Components: react-native-gifted-chat
+- BackendAI: OpenAI GPT
+-------------------------------------------------------------
+
